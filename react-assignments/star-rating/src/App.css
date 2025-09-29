@@ -8,13 +8,46 @@
 .star {
   font-size: 2rem;
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  outline: none;
+  display: inline-block;
+  padding: 0.2rem;
+}
+
+.star:focus {
+  outline: 2px solid #4A90E2;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.star-small {
+  font-size: 1.2rem;
+}
+
+.star-large {
+  font-size: 3rem;
 }
 
 .card {
   padding: 1rem 2em;
   border: 2px solid #eee;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card.disabled .star {
+  cursor: not-allowed;
 }
 
 .golden {
   color: gold;
+}
+
+.star:hover:not(.card.disabled .star) {
+  transform: scale(1.1);
 }
