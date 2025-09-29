@@ -1,12 +1,13 @@
 # React Assignments
 
-This repository contains various React assignments and projects.
+Assignments for react components, useful in frontend interviews.
 
 ## Structure
 
 Each assignment is contained in its own folder:
 
 - `star-rating/` - Star Rating Component Assignment
+- `react-editor/` - React Editor Component
 
 ## Getting Started
 

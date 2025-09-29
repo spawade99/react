@@ -1,0 +1,27 @@
+.editor{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    border: black;
+    border-style: groove;
+    margin: 0.5%;
+}
+.editor-input{
+background-color: beige;
+min-height: 15rem;
+height: 50%;
+}
+.editor-header{
+    color: white;
+    background-color: thistle;
+    border: black;
+    border-style: groove;
+    margin: 0.2%;
+}
+
+.editor-btn{
+    position: relative;
+    margin-left: auto;
+    margin-right: 0 ;
+}
